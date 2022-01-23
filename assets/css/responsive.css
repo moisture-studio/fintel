@@ -1,0 +1,238 @@
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1220px;
+    }
+}
+@media (max-width:1799px){
+    .big-heading-title{
+        font-size: 36px;
+    }
+    .heading-title{
+        font-size: 32px;
+    }
+    .our-latest-reviews{
+        padding-left: 190px;
+    }
+    .short-interest-section::after{
+        height: 480px;
+    }
+}
+@media (max-width:1599px){
+    .big-heading-title{
+        font-size: 32px;
+    }
+    .our-latest-reviews {
+        padding-left: 110px;
+    }
+    .short-interest-section::after{
+        height: 420px;
+    }
+}
+@media (max-width:1439px){
+    .pricing-board{
+        padding: 20px;
+    }
+    .pricing-board ul{
+        margin-top: 20px;
+    }
+    .pricingwrap-row{
+        grid-gap: 30px;
+    }
+}
+@media (max-width:1365px){
+    .our-latest-reviews {
+        padding-left: 80px;
+    }
+}
+@media (max-width:1279px){
+    .pricing-board h1{
+        font-size: 30px;
+    }
+    .latest-review-item{
+        padding: 20px;
+    }
+    .our-latest-reviews {
+        padding-left: 42px;
+    }
+    .subscribe-section h4{
+        font-size: 24px;
+    }
+}
+@media (max-width:1199px){
+    .big-heading-title{
+        font-size: 30px;
+    }
+    .pricingwrap-row{
+        grid-gap: 20px;
+    }
+    .as-seen-in-row{
+        grid-template-columns: repeat(5,1fr);
+    }
+    .review-slider-wrap{
+        margin-top: 35px;
+    }
+    .our-latest-reviews-section{
+        padding: 50px 12px 70px;
+    }
+    .footer-section{
+        padding: 50px 12px 30px;
+    }
+    .heading-title {
+        font-size: 26px;
+    }
+    .trading-opportunities-section h6{
+        font-size: 20px;
+    }
+    .trading-opportunities-section p,.subscribe-section p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 991px){
+    .section-pt {
+        padding: 50px 0 0;
+    }
+    .pricingwrap-row{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .as-seen-in-row{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .heading-title {
+        font-size: 24px;
+    }
+    .short-interest-section::after {
+        height: 220px;
+        bottom: -15px;
+    }
+    .financial-authorities-section {
+        margin-top: 70px;
+    }
+    .trading-box{
+        min-height: auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .subscribe-box{
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 767px){
+    .big-heading-title {
+        font-size: 24px;
+    }
+    .pricingwrap-row {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 50px;
+        margin-top: 20px;
+    }
+    .as-seen-in-row {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .our-latest-reviews {
+        padding-left: 0px;
+    }
+    .heading-title,.fintel-content h2 {
+        font-size: 20px;
+    }
+    .starlist li {
+        padding: 0 5px;
+    }
+    .inner-p-txt {
+        font-size: 18px;
+    }
+    .fintel-content p{
+        font-size: 14px;
+    }
+    .fintel-content{
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:575px){
+    .big-heading-title, .subscribe-section h4  {
+        font-size: 18px;
+    }
+    .pricingwrap-row{
+        margin-top: 0;
+    }
+    .popularboard-box::before{
+        display: none;
+    }
+    .pricing-section::after{
+        max-height: 350px;
+        min-height: 350px;
+        bottom: -80px;
+    }
+    .as-seen-in-section{
+        margin-top: 80px;
+    }
+    .pricing-board h4{
+        font-size: 20px;
+    }
+    .as-seen-in-row {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .as-seen-in-row{
+        grid-gap: 40px 20px;
+    }
+    .review-slider-wrap{
+        margin-top: 0;
+    }
+    .our-latest-reviews-section{
+        min-height: auto;
+        padding: 50px 12px;
+    }
+    .accordion-item{
+        border-color: var(--black-color);
+        border-width: 1px 0 1px;
+    }
+    .accordion-button{
+        padding: 15px;
+    }
+    .still-have-questions-list .userprofile02{
+        width: 75px;
+        height: 75px;
+    }
+    .still-have-questions-list li{
+        width: 55px;
+        height: 55px;
+    }
+    .accordion-button::after{
+        width: 25px;
+        height: 25px;
+    }
+    .custom-btn{
+        border-radius: 20px;
+    }
+    .fintel-content{
+        flex-wrap: wrap;
+    }
+    .footer-list h6,.accordion-button,.inner-p-txt{
+        font-size: 16px;
+    }
+    .pricingboard-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .tracker-video-play{
+        height: 300px;
+    }
+    .subscribe-form{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:399px){
+    .custom-btn{
+        font-size: 15px;
+    }
+}
+@media (max-width:374px){
+    .accordion-button{
+        font-size: 14px;
+    }
+    .visit-label{
+        font-size: 10px;
+        min-height: 35px;
+        padding: 0 10px;
+    }
+}
